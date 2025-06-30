@@ -15,7 +15,7 @@ model = joblib.load('SVCModel')
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://simplestackapp.onrender.com/"],
+    allow_origins=["simplestackapp.onrender.com"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
